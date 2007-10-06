@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>%%title%%</title>
+<style type="text/css">
+%%style%%
+</style>
+</head>
+
+<body>
+<h1>%%title%%</h1>
+<h4>%%searchterm%% was %%usenegation%%found in %%totalfiles%% files</h4>
+<div class="searchoptions">
+   <h3 class="header">Search Options</h3>
+   %%filetypes%%<br />
+   %%regex%%<br />
+   %%casesen%%<br />
+   %%wholeword%%<br />
+   %%recurse%%<br />
+   %%filenameonly%%<br />
+   %%negation%%<br />
+   %%linenumbers%%<br />
+   %%contextlines%%<br />
+</div>
+[repeat]
+<p class="hit-file">
+%%file%%
+</p>
+[/repeat]
+<div id="footer">
+   Copyright ©2002-2006 AstroComma Incorporated.  All rights reserved.<br/>
+	FileSearch is freely distributable with certain <a target="_top" href="http://www.gnu.org/copyleft/gpl.html#SEC3" title="View the license restrictions"> restrictions</a> under
+   the <a target="_top" href="http://www.gnu.org/copyleft/gpl.html" title="View the GNU Public License">GNU Public License</a><br/>
+</div>
+</body>
+</html>

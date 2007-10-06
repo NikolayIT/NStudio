@@ -1,0 +1,240 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{583FF22B-9586-4543-B4B4-747E06C963ED}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>Images\AstroGrep_Icon.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>FileSearch</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>FileSearch</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>bin\FileSearch.xml</DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Common.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Constants.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\GeneralSettings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\PluginManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\PluginSettings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SearchSettings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SettingsIO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\TextEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="libAstroGrep\Grep.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="libAstroGrep\HitObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="libAstroGrep\Plugin\IAstroGrepPlugin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="libAstroGrep\Plugin\PluginCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="libAstroGrep\Plugin\PluginWrapper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Output\HTMLHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Plugin.cs" />
+    <Compile Include="Plugins.MicrosoftWord\MicrosoftWordPlugin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Windows\CommandLineProcessing.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Windows\Common.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Windows\Controls\ColorButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Windows\Controls\PictureButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Windows\Forms\frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Forms\frmAddEditTextEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Forms\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Forms\frmOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Forms\frmPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Language.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Windows\Legacy.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Windows\ListViewItemComparer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Windows\Printing.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Windows\Program.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Windows\Registry.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Windows\Win32.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Content Include="Images\ascending-arrow-gray.gif" />
+    <Content Include="Images\AstroGrep_Icon.ico" />
+    <Content Include="Images\descending-arrow-gray.gif" />
+    <Content Include="Images\folder-open.png" />
+    <Content Include="Images\options-general.png" />
+    <Content Include="Images\options-plugins.png" />
+    <Content Include="Images\options-results.png" />
+    <Content Include="Images\options-text-editors.png" />
+    <EmbeddedResource Include="Language\Danish.xml" />
+    <EmbeddedResource Include="Language\Deutsch.xml" />
+    <EmbeddedResource Include="Language\English.xml" />
+    <EmbeddedResource Include="Language\Italiano.xml" />
+    <EmbeddedResource Include="Output\Output-fileNameOnly.html" />
+    <EmbeddedResource Include="Output\Output.css" />
+    <EmbeddedResource Include="Output\Output.html" />
+    <EmbeddedResource Include="Windows\Controls\ColorButton.resx">
+      <DependentUpon>ColorButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Forms\frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Forms\frmAddEditTextEditor.resx">
+      <DependentUpon>frmAddEditTextEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Forms\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Forms\frmOptions.resx">
+      <DependentUpon>frmOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Forms\frmPrint.resx">
+      <DependentUpon>frmPrint.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DockPanelSuite\WinFormsUI.csproj">
+      <Project>{C75532C4-765B-418E-B09B-46D36B2ABDB1}</Project>
+      <Name>WinFormsUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\NStudioInterface\NStudioInterface.csproj">
+      <Project>{B2D59E99-641D-46B4-9543-3D09B130CE96}</Project>
+      <Name>NStudioInterface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

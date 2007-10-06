@@ -1,0 +1,302 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0B75385F-A54E-4DB2-B888-CF616EEE9613}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NStudio</RootNamespace>
+    <AssemblyName>NStudio</AssemblyName>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HtmlEditControl, Version=1.0.2721.19161, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Req\HtmlEditControl.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.TextEditor, Version=2.2.1.2622, Culture=neutral, PublicKeyToken=4d61825e8dd49f1a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Req\ICSharpCode.TextEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="ScintillaNET, Version=1.0.2626.22303, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Req\ScintillaNET.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editors\HTML.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editors\HTML.Designer.cs">
+      <DependentUpon>HTML.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpenInForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpenInForm.Designer.cs">
+      <DependentUpon>OpenInForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\CommandPrompt.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tools\CommandPrompt.Designer.cs">
+      <DependentUpon>CommandPrompt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Converter.cs" />
+    <Compile Include="Tools\ConZole.cs">
+    </Compile>
+    <Compile Include="Tools\ConZole.Designer.cs">
+      <DependentUpon>ConZole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\DirectoryWatcher.cs">
+    </Compile>
+    <Compile Include="Tools\DirectoryWatcher.Designer.cs">
+      <DependentUpon>DirectoryWatcher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditActions.cs" />
+    <Compile Include="Editors\StandardTextEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editors\StandardTextEditor.Designer.cs">
+      <DependentUpon>StandardTextEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\SearchReplace.cs">
+    </Compile>
+    <Compile Include="Tools\SearchReplace.Designer.cs">
+      <DependentUpon>SearchReplace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\SystemInformation.cs">
+    </Compile>
+    <Compile Include="Tools\SystemInformation.Designer.cs">
+      <DependentUpon>SystemInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\MathTools.cs">
+    </Compile>
+    <Compile Include="Tools\MathTools.Designer.cs">
+      <DependentUpon>MathTools.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\Browser.cs">
+    </Compile>
+    <Compile Include="Tools\Browser.Designer.cs">
+      <DependentUpon>Browser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\ClipboardRing.cs">
+    </Compile>
+    <Compile Include="Tools\ClipboardRing.Designer.cs">
+      <DependentUpon>ClipboardRing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editors\ICSharpCodeEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editors\ICSharpCodeEditor.Designer.cs">
+      <DependentUpon>ICSharpCodeEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OptionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OptionsForm.Designer.cs">
+      <DependentUpon>OptionsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PluginManager.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\HTML.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>HTML.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenInForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OpenInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\CommandPrompt.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CommandPrompt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\ConZole.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ConZole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\DirectoryWatcher.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DirectoryWatcher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\StandardTextEditor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StandardTextEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\SearchReplace.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SearchReplace.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\SystemInformation.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SystemInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\MathTools.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MathTools.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\Browser.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Browser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\ClipboardRing.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ClipboardRing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\ICSharpCodeEditor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ICSharpCodeEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptionsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\RTE.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RTE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editors\ScintillaEditor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ScintillaEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Toolbars\MainMenuContainer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainMenuContainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Renderers\Office2007\Office2007ColorTable.cs" />
+    <Compile Include="Renderers\Office2007\Office2007Helpers.cs" />
+    <Compile Include="Renderers\Office2007\Office2007Renderer.cs" />
+    <Compile Include="Editors\RTE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editors\RTE.Designer.cs">
+      <DependentUpon>RTE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editors\ScintillaEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editors\ScintillaEditor.Designer.cs">
+      <DependentUpon>ScintillaEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsManager.cs">
+    </Compile>
+    <Compile Include="Toolbars\StatusBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Toolbars\MainMenuContainer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Toolbars\MainMenuContainer.Designer.cs">
+      <DependentUpon>MainMenuContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Toolbars\OthersToolBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Toolbars\ViewToolBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Toolbars\EditToolBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Toolbars\FileToolBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SplashImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon.ico" />
+    <None Include="Resources\icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DockPanelSuite\WinFormsUI.csproj">
+      <Project>{C75532C4-765B-418E-B09B-46D36B2ABDB1}</Project>
+      <Name>WinFormsUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NStudioInterface\NStudioInterface.csproj">
+      <Project>{B2D59E99-641D-46B4-9543-3D09B130CE96}</Project>
+      <Name>NStudioInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NStudioResources\NStudioResources.csproj">
+      <Project>{F801AA54-7FC0-4F20-AC78-C21A2BEA5E64}</Project>
+      <Name>NStudioResources</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

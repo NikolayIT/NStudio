@@ -1,0 +1,65 @@
+body
+{
+   background-color: #ddd;
+   margin: 0px;
+}
+
+h1
+{
+   margin: 3px 0px 0px 0px;
+   border-bottom: solid 1px #000;
+   color: #fb7f06;
+   font-style: italic;
+}
+
+h4
+{
+   margin: 0px 0px 0px 3px;
+}
+
+.hit
+{
+   background-color: %%resultback%%;
+   color: %%resultfore%%;
+   margin: 5px 5px 15px 5px;
+}
+
+.hit-file
+{
+   background-color: %%resultback%%;
+   color: %%resultfore%%;
+   margin: 0px 5px 0px 5px;
+}
+
+.searchtext
+{
+   color: %%highlightfore%%;
+}
+
+.searchoptions
+{
+   margin: 10px 30px 10px 30px;
+   border: solid 1px #000;
+   background-color: #c0c0c0;
+   width: 300px;
+}
+
+.searchoptions .header
+{
+   font-style: italic;
+   color: #000;
+   display: block;
+   margin: 2px 0px 2px 0px;
+   border-bottom: solid 1px #000;
+}
+
+#footer
+{
+   font-size: 10px;
+   color:#000;
+   border-top: 1px solid #000;
+   text-align:center;
+   background-color: #fb7f06;
+   padding: 5px 0px 5px 0px;
+   margin-top: 5px;
+}

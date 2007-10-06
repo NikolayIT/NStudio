@@ -1,0 +1,206 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NStudio", "NStudio\NStudio.csproj", "{0B75385F-A54E-4DB2-B888-CF616EEE9613}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NStudioInterface", "NStudioInterface\NStudioInterface.csproj", "{B2D59E99-641D-46B4-9543-3D09B130CE96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A7689D55-B4BB-4F4E-B5D8-7CADF8DF26E7}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\HISTORY.txt = Solution Items\HISTORY.txt
+		Solution Items\PUBLIC.txt = Solution Items\PUBLIC.txt
+		Solution Items\README.txt = Solution Items\README.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Languages", "Languages", "{350B0C17-045F-414E-A365-480CEA83D67E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{CEA288F0-89C1-4F8C-876C-7D48DCC15D1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProEditor", "Plugins\ProEditor\ProEditor.csproj", "{B0849398-C911-4DBD-809D-A655568B6CAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NStudioResources", "NStudioResources\NStudioResources.csproj", "{F801AA54-7FC0-4F20-AC78-C21A2BEA5E64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NStudioResources2", "NStudioResources2\NStudioResources2.csproj", "{2440E058-27C9-4D69-B834-D862CF5F342C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NStudio Site", "NStudio Site", "{DA69E22F-9E58-4877-81A2-873750A5F4F5}"
+	ProjectSection(SolutionItems) = preProject
+		NStudio Site\download.php = NStudio Site\download.php
+		NStudio Site\features.php = NStudio Site\features.php
+		NStudio Site\header.jpg = NStudio Site\header.jpg
+		NStudio Site\history.php = NStudio Site\history.php
+		NStudio Site\include.php = NStudio Site\include.php
+		NStudio Site\index.php = NStudio Site\index.php
+		NStudio Site\info.php = NStudio Site\info.php
+		NStudio Site\info.xml = NStudio Site\info.xml
+		NStudio Site\plugins.php = NStudio Site\plugins.php
+		NStudio Site\screens.php = NStudio Site\screens.php
+		NStudio Site\vc.php = NStudio Site\vc.php
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bulgarian", "Languages\Bulgarian\Bulgarian.csproj", "{7895A903-229E-4CCC-9BE7-4794AC1528DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeSnippet", "Plugins\CodeSnippet\CodeSnippet.csproj", "{1AA6DD2D-A5B0-4AC1-9936-073971912535}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Req", "Req", "{CAB5A15F-6421-4E64-88CA-63320FB654AD}"
+	ProjectSection(SolutionItems) = preProject
+		Req\HtmlEditControl.dll = Req\HtmlEditControl.dll
+		Req\ICSharpCode.SharpZipLib.dll = Req\ICSharpCode.SharpZipLib.dll
+		Req\ICSharpCode.TextEditor.dll = Req\ICSharpCode.TextEditor.dll
+		Req\SciLexer.dll = Req\SciLexer.dll
+		Req\ScintillaNET.dll = Req\ScintillaNET.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{DDE7CCDD-4361-4EC7-A86A-695490CA6BBC}"
+	ProjectSection(SolutionItems) = preProject
+		Req\Configuration\abbrev.properties = Req\Configuration\abbrev.properties
+		Req\Configuration\ada.properties = Req\Configuration\ada.properties
+		Req\Configuration\asm.properties = Req\Configuration\asm.properties
+		Req\Configuration\asn1.properties = Req\Configuration\asn1.properties
+		Req\Configuration\au3.properties = Req\Configuration\au3.properties
+		Req\Configuration\ave.properties = Req\Configuration\ave.properties
+		Req\Configuration\baan.properties = Req\Configuration\baan.properties
+		Req\Configuration\blitzbasic.properties = Req\Configuration\blitzbasic.properties
+		Req\Configuration\bullant.properties = Req\Configuration\bullant.properties
+		Req\Configuration\caml.properties = Req\Configuration\caml.properties
+		Req\Configuration\conf.properties = Req\Configuration\conf.properties
+		Req\Configuration\cpp.properties = Req\Configuration\cpp.properties
+		Req\Configuration\csound.properties = Req\Configuration\csound.properties
+		Req\Configuration\css.properties = Req\Configuration\css.properties
+		Req\Configuration\eiffel.properties = Req\Configuration\eiffel.properties
+		Req\Configuration\erlang.properties = Req\Configuration\erlang.properties
+		Req\Configuration\escript.properties = Req\Configuration\escript.properties
+		Req\Configuration\flagship.properties = Req\Configuration\flagship.properties
+		Req\Configuration\forth.properties = Req\Configuration\forth.properties
+		Req\Configuration\fortran.properties = Req\Configuration\fortran.properties
+		Req\Configuration\freebasic.properties = Req\Configuration\freebasic.properties
+		Req\Configuration\global.properties = Req\Configuration\global.properties
+		Req\Configuration\html.properties = Req\Configuration\html.properties
+		Req\Configuration\inno.properties = Req\Configuration\inno.properties
+		Req\Configuration\kix.properties = Req\Configuration\kix.properties
+		Req\Configuration\latex.properties = Req\Configuration\latex.properties
+		Req\Configuration\lisp.properties = Req\Configuration\lisp.properties
+		Req\Configuration\lot.properties = Req\Configuration\lot.properties
+		Req\Configuration\lout.properties = Req\Configuration\lout.properties
+		Req\Configuration\lua.properties = Req\Configuration\lua.properties
+		Req\Configuration\matlab.properties = Req\Configuration\matlab.properties
+		Req\Configuration\metapost.properties = Req\Configuration\metapost.properties
+		Req\Configuration\mmixal.properties = Req\Configuration\mmixal.properties
+		Req\Configuration\nncrontab.properties = Req\Configuration\nncrontab.properties
+		Req\Configuration\nsis.properties = Req\Configuration\nsis.properties
+		Req\Configuration\opal.properties = Req\Configuration\opal.properties
+		Req\Configuration\others.properties = Req\Configuration\others.properties
+		Req\Configuration\pascal.properties = Req\Configuration\pascal.properties
+		Req\Configuration\perl.properties = Req\Configuration\perl.properties
+		Req\Configuration\pov.properties = Req\Configuration\pov.properties
+		Req\Configuration\ps.properties = Req\Configuration\ps.properties
+		Req\Configuration\purebasic.properties = Req\Configuration\purebasic.properties
+		Req\Configuration\python.properties = Req\Configuration\python.properties
+		Req\Configuration\rebol.properties = Req\Configuration\rebol.properties
+		Req\Configuration\ruby.properties = Req\Configuration\ruby.properties
+		Req\Configuration\SciTE.properties = Req\Configuration\SciTE.properties
+		Req\Configuration\SciTEGlobal.properties = Req\Configuration\SciTEGlobal.properties
+		Req\Configuration\scriptol.properties = Req\Configuration\scriptol.properties
+		Req\Configuration\smalltalk.properties = Req\Configuration\smalltalk.properties
+		Req\Configuration\specman.properties = Req\Configuration\specman.properties
+		Req\Configuration\spice.properties = Req\Configuration\spice.properties
+		Req\Configuration\sql.properties = Req\Configuration\sql.properties
+		Req\Configuration\tcl.properties = Req\Configuration\tcl.properties
+		Req\Configuration\tex.properties = Req\Configuration\tex.properties
+		Req\Configuration\vb.properties = Req\Configuration\vb.properties
+		Req\Configuration\verilog.properties = Req\Configuration\verilog.properties
+		Req\Configuration\vhdl.properties = Req\Configuration\vhdl.properties
+		Req\Configuration\yaml.properties = Req\Configuration\yaml.properties
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsMediaPlayer", "Plugins\WindowsMediaPlayer\WindowsMediaPlayer.csproj", "{E7DC51B0-9688-4F38-9385-E712EFBFBE01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Installer", "Installer", "{D1C7511C-5B78-4FEC-AD5C-57F0AEB029DF}"
+	ProjectSection(SolutionItems) = preProject
+		Installer\Check.net.ini = Installer\Check.net.ini
+		Installer\NStudio.nsi = Installer\NStudio.nsi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latvian", "Languages\Latvian\Latvian.csproj", "{37F0BDD3-9614-4226-B019-67560DC1A829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Russian", "Languages\Russian\Russian.csproj", "{CB8A6417-035C-46CB-B1B7-BDF4D8FDC44A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hungarian", "Languages\Hungarian\Hungarian.csproj", "{6C3ECE65-CA3B-4074-964F-75F06AB25EE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsUI", "DockPanelSuite\WinFormsUI.csproj", "{C75532C4-765B-418E-B09B-46D36B2ABDB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstroGrep", "Plugins\FileSearch\AstroGrep.csproj", "{583FF22B-9586-4543-B4B4-747E06C963ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B75385F-A54E-4DB2-B888-CF616EEE9613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B75385F-A54E-4DB2-B888-CF616EEE9613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B75385F-A54E-4DB2-B888-CF616EEE9613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B75385F-A54E-4DB2-B888-CF616EEE9613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2D59E99-641D-46B4-9543-3D09B130CE96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2D59E99-641D-46B4-9543-3D09B130CE96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2D59E99-641D-46B4-9543-3D09B130CE96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2D59E99-641D-46B4-9543-3D09B130CE96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0849398-C911-4DBD-809D-A655568B6CAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0849398-C911-4DBD-809D-A655568B6CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0849398-C911-4DBD-809D-A655568B6CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0849398-C911-4DBD-809D-A655568B6CAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F801AA54-7FC0-4F20-AC78-C21A2BEA5E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F801AA54-7FC0-4F20-AC78-C21A2BEA5E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F801AA54-7FC0-4F20-AC78-C21A2BEA5E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F801AA54-7FC0-4F20-AC78-C21A2BEA5E64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2440E058-27C9-4D69-B834-D862CF5F342C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2440E058-27C9-4D69-B834-D862CF5F342C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2440E058-27C9-4D69-B834-D862CF5F342C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2440E058-27C9-4D69-B834-D862CF5F342C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7895A903-229E-4CCC-9BE7-4794AC1528DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7895A903-229E-4CCC-9BE7-4794AC1528DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7895A903-229E-4CCC-9BE7-4794AC1528DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7895A903-229E-4CCC-9BE7-4794AC1528DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AA6DD2D-A5B0-4AC1-9936-073971912535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA6DD2D-A5B0-4AC1-9936-073971912535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AA6DD2D-A5B0-4AC1-9936-073971912535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA6DD2D-A5B0-4AC1-9936-073971912535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7DC51B0-9688-4F38-9385-E712EFBFBE01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7DC51B0-9688-4F38-9385-E712EFBFBE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7DC51B0-9688-4F38-9385-E712EFBFBE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7DC51B0-9688-4F38-9385-E712EFBFBE01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37F0BDD3-9614-4226-B019-67560DC1A829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37F0BDD3-9614-4226-B019-67560DC1A829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37F0BDD3-9614-4226-B019-67560DC1A829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37F0BDD3-9614-4226-B019-67560DC1A829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB8A6417-035C-46CB-B1B7-BDF4D8FDC44A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB8A6417-035C-46CB-B1B7-BDF4D8FDC44A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB8A6417-035C-46CB-B1B7-BDF4D8FDC44A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB8A6417-035C-46CB-B1B7-BDF4D8FDC44A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C3ECE65-CA3B-4074-964F-75F06AB25EE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C3ECE65-CA3B-4074-964F-75F06AB25EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C3ECE65-CA3B-4074-964F-75F06AB25EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C3ECE65-CA3B-4074-964F-75F06AB25EE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C75532C4-765B-418E-B09B-46D36B2ABDB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C75532C4-765B-418E-B09B-46D36B2ABDB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C75532C4-765B-418E-B09B-46D36B2ABDB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C75532C4-765B-418E-B09B-46D36B2ABDB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{583FF22B-9586-4543-B4B4-747E06C963ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{583FF22B-9586-4543-B4B4-747E06C963ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{583FF22B-9586-4543-B4B4-747E06C963ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{583FF22B-9586-4543-B4B4-747E06C963ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7895A903-229E-4CCC-9BE7-4794AC1528DB} = {350B0C17-045F-414E-A365-480CEA83D67E}
+		{37F0BDD3-9614-4226-B019-67560DC1A829} = {350B0C17-045F-414E-A365-480CEA83D67E}
+		{CB8A6417-035C-46CB-B1B7-BDF4D8FDC44A} = {350B0C17-045F-414E-A365-480CEA83D67E}
+		{6C3ECE65-CA3B-4074-964F-75F06AB25EE2} = {350B0C17-045F-414E-A365-480CEA83D67E}
+		{B0849398-C911-4DBD-809D-A655568B6CAA} = {CEA288F0-89C1-4F8C-876C-7D48DCC15D1A}
+		{1AA6DD2D-A5B0-4AC1-9936-073971912535} = {CEA288F0-89C1-4F8C-876C-7D48DCC15D1A}
+		{E7DC51B0-9688-4F38-9385-E712EFBFBE01} = {CEA288F0-89C1-4F8C-876C-7D48DCC15D1A}
+		{583FF22B-9586-4543-B4B4-747E06C963ED} = {CEA288F0-89C1-4F8C-876C-7D48DCC15D1A}
+		{DDE7CCDD-4361-4EC7-A86A-695490CA6BBC} = {CAB5A15F-6421-4E64-88CA-63320FB654AD}
+	EndGlobalSection
+EndGlobal

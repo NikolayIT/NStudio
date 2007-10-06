@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language displayName="Italiano" culture="it-it" version="1.0">
+   <screen name="frmMain" value="FileSearch">
+      <control name="lblSearchHeading" value=" Ricerca di Astrogrep" />
+      <control name="lblSearchText" value="Testo di ricerca" />
+      <control name="lblFileTypes" value="Tipi di file" />
+      <control name="btnCancel" value="&amp;Annulla" />
+      <control name="btnSearch" value="&amp;Cerca" />
+      <control name="lblSearchPath" value="Percorso di ricerca" />
+      <control name="lblContextLines" value="Righe di contesto" tooltip="Numero di righe da visualizzare sopra e sotto la parola trovata" />
+      <control name="chkLineNumbers" value="&amp;Numero riga" tooltip="Visualizza il numero di riga prima di ogni corripondenza" />
+      <control name="chkNegation" value="&amp;Esclusione" tooltip="Trova i file che non contengono il testo cercato" />
+      <control name="chkFileNamesOnly" value="&amp;Visualizza solo nomi dei file" tooltip="Visualizza solo i nomi dei file contenenti corrispondenze (operazione consigliata con file di grandi dimensioni)" />
+      <control name="chkRecurse" value="&amp;Controlla le sottocartelle" tooltip="Ricerca nelle sottocartelle" />
+      <control name="chkWholeWordOnly" value="&amp;Solo parole intere" tooltip="Ricerca solo parole intere, non porzioni di termini" />
+      <control name="chkCaseSensitive" value="&amp;Maiuscole/minuscole" tooltip="Attiva la distinzione tra maiuscole e minuscole durante la ricerca" />
+      <control name="chkRegularExpressions" value="Espressione &amp;regolare" tooltip="Esegue una ricerca per &apos;espressioni regolari&apos;" />
+      <control name="lnkSearchOptions" value="Opzioni di ricerca  {0}" />
+      <control name="picBrowse" tooltip="Sfoglia..." />
+      <menu index="0" value="&amp;File">
+         <menuitem index="0" value="Seleziona &amp;percorso di ricerca" />
+         <menuitem index="1" value="-" />
+         <menuitem index="2" value="&amp;Salva risultati..." />
+         <menuitem index="3" value="Sta&amp;mpa risultati..." />
+         <menuitem index="4" value="-" />
+         <menuitem index="5" value="&amp;Esci" />
+      </menu>
+      <menu index="1" value="&amp;Modifica">
+         <menuitem index="0" value="Se&amp;leziona tutti i file" />
+         <menuitem index="1" value="&amp;Apri file selezionati" />
+      </menu>
+      <menu index="2" value="St&amp;rumenti">
+         <menuitem index="0" value="&amp;Cancella elenchi usati di recente" />
+         <menuitem index="1" value="-" />
+         <menuitem index="2" value="&amp;Salva opzioni di ricerca" />
+         <menuitem index="3" value="&amp;Opzioni..." />
+      </menu>
+      <menu index="3" value="&amp;Guida">
+         <menuitem index="0" value="&amp;Informazioni su..." />
+      </menu>
+   </screen>
+   
+   <screen name="frmAbout" value="Informazioni su {0}">
+      <control name="lnkHomePage" value="{0} Pagina principale" />
+      <control name="cmdOK" value="&amp;OK" />
+   </screen>
+   
+   <screen name="frmAddEditTextEditor" value="Editor di testo">
+      <control name="lblAllTypesMessage" value="Per tutti i tipi di file sconosciuti è possibile utilizzare un editor di testo inserendo * come tipo di file." />
+      <control name="lblCmdOptions" value="Opzioni da riga di comando:
+  %1 - File
+  %2 - Numero riga
+  %3 - Colonna" />
+      <control name="lblCmdOptionsView" value="Anteprima: {0}" />
+      <control name="btnBrowse" tooltip="Sfoglia..." />
+      <control name="lblCmdLineArgs" value="Riga di comando" />
+      <control name="lblTextEditorLocation" value="Percorso editor di testo" />
+      <control name="lblFileType" value="Tipo file" />
+      <control name="btnCancel" value="&amp;Annulla" />
+      <control name="btnOK" value="&amp;OK" />
+   </screen>
+   
+   <screen name="frmOptions" value="Opzioni">
+      <control name="chkRightClickOption" value="&amp;Aggiungi l&apos;opzione di ricerca al menu contestuale di Esplora Risorse" />
+      <control name="lblStoredPaths" value="Numero dei percorsi di archiaviazione usati più di recente" />
+      <control name="btnEdit" value="&amp;Modifica..." />
+      <control name="btnRemove" value="&amp;Cancella" />
+      <control name="btnAdd" value="&amp;Aggiungi..." />
+      <control name="lblResultPreview" value="Anteprima risultati" />
+      <control name="lblResultsWindowBack" value="Colore sfondo" />
+      <control name="lblResultsWindowFore" value="Colore carattere" />
+      <control name="grpResultWindow" value="Finestra risultati" />
+      <control name="BackColorLabel" value="Colore sfondo" />
+      <control name="ForeColorLabel" value="Colore carattere" />
+      <control name="grpResultMatch" value="Risultati corrispondenti alla ricerca" />
+      <control name="btnOK" value="&amp;OK" />
+      <control name="btnCancel" value="&amp;Annulla" />
+      <control name="tabResults" value="Risultati" />
+      <control name="tabGeneral" value="Generale" />
+      <control name="tabTextEditors" value="Editor di testo" />
+      <control name="LanguageGroup" value="Lingua"/>
+      <control name="ExtensionExclusionGroup" value="Estensioni file escluse"/>
+      <control name="tabPlugins" value="Plugin"/>
+      <control name="chkDesktopShortcut" value="Collegamenti sul &amp;desktop"/>
+      <control name="chkStartMenuShortcut" value="Collegamenti del &amp;menu di avvio"/>
+      <control name="ShortcutGroup" value="Collegamenti"/>
+      <control name="PluginDetailsGroup" value="Informazioni sui plugin"/>
+      <control name="lblPluginDetailName" value="Nome:"/>
+      <control name="lblPluginDetailVersion" value="Versione:"/>
+      <control name="lblPluginDetailAuthor" value="Autore:"/>
+   </screen>
+   
+   <screen name="frmPrint" value="Stampa">
+      <control name="cmdCancel" value="&amp;Annulla" />
+      <control name="lblSelect" value="Selezionare il tipo di output:" />
+      <control name="cmdPageSetup" value="&amp;Impostazioni pagina" />
+      <control name="cmdPrint" value="&amp;Stampa" />
+      <control name="cmdPreview" value="A&amp;nteprima" />
+   </screen>
+   
+   <generic>
+      <text name="Browse" value="Sfoglia..."/>
+      
+      <text name="SaveDialogTitle" value="Salva risultati con nome" />
+      <text name="SaveNoResults" value="Nessun risultato disponibile per il salvataggio."/>
+      <text name="SaveError" value="Impossibile salvare i risultati: {0}"/>
+      <text name="SaveSaving" value="Salvataggio dei risultati nel file: {0}"/>
+      <text name="SaveSaved" value="Risultati salvati"/>
+      
+      <text name="PrintTypeSelected" value="Elementi selezionati"/>
+      <text name="PrintTypeCurrent" value="Risultato attuale"/>
+      <text name="PrintTypeFile" value="Elenco file"/>
+      <text name="PrintTypeAll" value="Tutti i risultati"/>
+      <text name="PrintErrorPageSettings" value="Errore durante il tentativo di caricamento delle Impostazioni della pagina. Assicurarsi di poter accedere alla stampante. La stampante deve essere collegata e accessibile perché l&apos;operazione di stampa abbia luogo."/>
+      <text name="PrintErrorPreview" value="Errore durante il tentativo di caricamento del documento di anteprima di stampa. Assicurarsi di poter accedere alla stampante. La stampante deve essere collegata e accessibile perché l&apos;operazione di stampa abbia luogo."/>
+      <text name="PrintErrorPrint" value="Errore durante il tentativo di caricamento del documento di stampa. Assicurarsi di poter accedere alla stampante. La stampante deve essere collegata e accessibile perché l&apos;operazione di stampa abbia luogo."/>
+      <text name="PrintErrorDocument" value="Errore durante la creazione del documento da stampare. ({0})"/>
+      <text name="PrintNoResults" value="Nessun risultato disponibile per la stampa."/>
+      
+      <text name="OpenFolderDescription" value="Selezionare una cartella."/>
+      
+      <text name="VerifyErrorContextLines" value="Il numero di righe di contesto deve essere compreso tra {0} e {1}."/>
+      <text name="VerifyErrorFileType" value="Specificare il nome del file in cui eseguire la ricerca."/>
+      <text name="VerifyErrorNoStartPath" value="Specificare il percorso iniziale della ricerca."/>
+      <text name="VerifyErrorInvalidStartPath" value="'{0} non è una cartella valida."/>
+      <text name="VerifyErrorNoSearchText" value="Specificare il testo da ricercare."/>
+      <text name="VerifyErrorGeneric" value="Impossibile convalidare i parametri specificati.  Verificare che siano validi."/>
+      
+      <text name="SearchGenericError" value="Errore durante la ricerca: {0}"/>
+      <text name="SearchFileError" value="Errore durante la ricerca del file: {0}."/>
+      <text name="SearchCancelled" value="Ricerca annullata"/>
+      <text name="SearchFinished" value="Ricerca terminata"/>
+      <text name="SearchStarted" value="Ricerca ha cominciato"/>
+      <text name="SearchSearching" value="Ricerca {0}"/>
+      <text name="SearchExplorerItem" value="Ricerca con {0}..."/>
+      
+      <text name="ResultsPreviewText" value="(21)  Esempio di visualizzazione della riga e della corrispondenza trovata"/>
+      <text name="ResultsPreviewTextMatch" value="corrispondenza trovata"/>
+      
+      <text name="ColorOtherText" value="&amp;Personalizza..."/>
+      <!-- todo: color names -->
+      
+      <text name="TextEditorsErrorNoCmdLineForFile" value="Non è stato specificato alcun argomento della riga di comando per il nome file.
+Specificare l'argomento del file in Strumenti->Opzioni."/>
+      <text name="TextEditorsErrorNotDefined" value="Non è stato definito alcun editor di testo né per il file specificato né per 'tutti i tipi di file'.
+Definire un editor di testo in Strumenti->Opzioni"/>
+      <text name="TextEditorsErrorGeneric" value="Errore durante la modifica del file {0}.
+È stato rilevato il seguente problema: {1}"/>
+      <text name="TextEditorsBrowseTitle" value="Selezionare l'eseguibile dell'editor di testo"/>
+      <text name="TextEditorsAllTypesDefined" value="L'editor di testo per 'tutti i tipi di file' è già stato specificato."/>
+      <text name="TextEditorsColumnFileType" value="Tipo file"/>
+      <text name="TextEditorsColumnLocation" value="Editor di testo"/>
+      <text name="TextEditorsColumnCmdLine" value="Riga di comando"/>
+      <text name="TextEditorsErrorNoEditor" value="Please define a text editor."/>
+      <text name="TextEditorsErrorFileTypeExists" value="The file type already exists.  Please try again."/>
+      
+      <text name="ResultsColumnFile" value="Nome"/>
+      <text name="ResultsColumnLocation" value="Situato in"/>
+      <text name="ResultsColumnDate" value="Data di modifica"/>
+      <text name="ResultsColumnCount" value="Conteggio"/>
+      
+      <text name="PluginsColumnEnabled" value="Attivato"/>
+      <text name="PluginsColumnName" value="Nome"/>
+      <text name="PluginsColumnExtensions" value="Estensioni"/>
+   </generic>
+   
+</language>
