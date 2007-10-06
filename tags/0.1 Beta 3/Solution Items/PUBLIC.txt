@@ -1,0 +1,35 @@
+[20.5.2007 ã. 20:03:39] RMPG says: http://www.download.bg/index.php?cls=program&mtd=default&id=431379 - download.bg
+http://www.softpedia.com/get/Office-tools/Text-editors/NStudio.shtml - softpedia.com
+[20.5.2007 ã. 20:04:12] RMPG says: http://fileforum.betanews.com/detail/NStudio/1179220914/1 - betanews.com
+[20.5.2007 ã. 20:04:44] RMPG says: http://www.kaldata.com/forums/index.php?showtopic=51442&hl=NStudio - kaldata.com
+[20.5.2007 ã. 20:05:02] RMPG says: http://forums.webleit.com/lofiversion/index.php/t3215.html - webleit.com
+[20.5.2007 ã. 20:05:46] RMPG says: http://web-tourist.net/forum/viewtopic.php?t=11353 - web-tourist.net
+[20.5.2007 ã. 20:06:10] RMPG says: http://www.softvisia.com/forums/index.php?showtopic=3632&hl=NStudio - softvisia.com
+[20.5.2007 ã. 20:06:38] RMPG says: http://softplace.org/news.php?readmore=569 - softplace.org
+
+1 - Build all
+2 - Add all asseblies to /BIN/
+3 - Test Content in BIN folder
+4 - Remove settings files
+5 - Add /BIN/ content in exe file named "NStudio {version}" ... (NStudio-0.1.B3.exe)
+6 - Add this "rar" file to folder /History/ + add source to /History/
+7 - Bakcup all to mail.yahoo.com
+8 - MySQL copy table + empty
+9 - Upload file to:
+	- Data.bg nrpg.data.bg/History/
+	- SoftPlace.org /public_html/nstudio/alpha/
+	- upload.sourceforge.net/incoming/
+	- hit.bg nstudio.hit.bg
+10 - Update SourceForge. Add news. Add release.
+9 - Update site. Upload to:
+	- SoftPlace(SoftPlace.org/public_html/nstudio/), 
+	- SourceForge (shell.sourceforge.net /home/groups/n/ns/nstudio/htdocs/).
+10 - Add news to forum
+11 - Update in softplace.org
+12 - Update in Download.bg
+13 - Update in Softpedia.com
+
+
+
+
+http://nstudio.hit.bg/NStudio-0.1.B3.exe

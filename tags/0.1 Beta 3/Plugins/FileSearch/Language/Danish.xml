@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language displayName="Danish" culture="da-dk" version="1.0">
+   <screen name="frmMain" value="FileSearch">
+      <control name="lblSearchHeading" value=" FileSearch Søgning" />
+      <control name="lblSearchText" value="Søge Tekst" />
+      <control name="lblFileTypes" value="Fil Typer" />
+      <control name="btnCancel" value="&amp;Afbryd" />
+      <control name="btnSearch" value="&amp;Søg" />
+      <control name="lblSearchPath" value="Søge Sti" />
+      <control name="lblContextLines" value="Kontekst Linier" tooltip="Vis linerne over og under fundne match" />
+      <control name="chkLineNumbers" value="&amp;Linienumre" tooltip="Vis linienumre ved hvert match" />
+      <control name="chkNegation" value="&amp;Negering" tooltip="Find alle filer der IKKE indeholder søge teksten" />
+      <control name="chkFileNamesOnly" value="Vis kun filnavne" tooltip="Vis kun filnavnet og ikke indholdet af søgeresultatet (hurtigere for store filer)" />
+      <control name="chkRecurse" value="&amp;Medtag undermapper" tooltip="Søg også i undermapper" />
+      <control name="chkWholeWordOnly" value="&amp;Hele Ord" tooltip="Match kun hele ord" />
+      <control name="chkCaseSensitive" value="&amp;Case sensitiv" tooltip="Match store og små bogstave præcist" />
+      <control name="chkRegularExpressions" value="Regular &amp;Expressions" tooltip="Anvend regular expression matching" />
+      <control name="lnkSearchOptions" value="Søgeparametre {0}" />
+      <control name="picBrowse" tooltip="Browse..." />
+      <menu index="0" value="&amp;Filer">
+         <menuitem index="0" value="&amp;Vælg Søgesti" />
+         <menuitem index="1" value="-" />
+         <menuitem index="2" value="&amp;Gem Resultater" />
+         <menuitem index="3" value="&amp;Print Resultater..." />
+         <menuitem index="4" value="-" />
+         <menuitem index="5" value="Afslut" />
+      </menu>
+      <menu index="1" value="&amp;Rediger">
+         <menuitem index="0" value="Vælg &amp;Alle Filer..." />
+         <menuitem index="1" value="Åben Valgte Filer" />
+      </menu>
+      <menu index="2" value="&amp;Indstillinger">
+         <menuitem index="0" value="&amp;Nulstil Listen Med Seneste Søgninger" />
+         <menuitem index="1" value="-" />
+         <menuitem index="2" value="&amp;Gem Søgeparametre" />
+         <menuitem index="3" value="&amp;Program Indstillinger..." />
+      </menu>
+      <menu index="3" value="&amp;Hjælp">
+         <menuitem index="0" value="&amp;Om..." />
+      </menu>
+   </screen>
+   
+   <screen name="frmAbout" value="Om {0}">
+      <control name="lnkHomePage" value="{0} Hjemmeside" />
+      <control name="cmdOK" value="&amp;OK" />
+   </screen>
+   
+   <screen name="frmAddEditTextEditor" value="Tekst Editorer">
+      <control name="lblAllTypesMessage" value="En teksteditor kan vælges for alle ukendte filtyper ved at bruge * for filtypen." />
+      <control name="lblCmdOptions" value="Kommandolinie Indstillinger:&#xD;&#xA;  %1 - Filer&#xD;&#xA;  %2 - Linie Nummer&#xD;&#xA;  %3 - Kollonne" />
+      <control name="lblCmdOptionsView" value="Preview: {0}" />
+      <control name="btnBrowse" tooltip="Browse..." />
+      <control name="lblCmdLineArgs" value="Kommandolinie" />
+      <control name="lblTextEditorLocation" value="Angiv Program" />
+      <control name="lblFileType" value="Fil Type" />
+      <control name="btnCancel" value="&amp;Annuller" />
+      <control name="btnOK" value="&amp;OK" />
+   </screen>
+   
+   <screen name="frmOptions" value="Indstillinger">
+      <control name="chkRightClickOption" value="&amp;Anvend søgning ved højreklik på mapper" />
+      <control name="lblStoredPaths" value="Antal senest anvendte søgestier der gemmes" />
+      <control name="btnEdit" value="&amp;Rediger..." />
+      <control name="btnRemove" value="&amp;Slet" />
+      <control name="btnAdd" value="&amp;Tilføj..." />
+      <control name="lblResultPreview" value="Resultat Preview" />
+      <control name="lblResultsWindowBack" value="Baggrundsfarve" />
+      <control name="lblResultsWindowFore" value="Forgrundsfarve" />
+      <control name="grpResultWindow" value="Resultat Vindue" />
+      <control name="BackColorLabel" value="Baggrundsfarve" />
+      <control name="ForeColorLabel" value="Forgrundsfarve" />
+      <control name="grpResultMatch" value="Resultat Match" />
+      <control name="btnOK" value="&amp;OK" />
+      <control name="btnCancel" value="&amp;Annuller" />
+      <control name="tabResults" value="Resultater" />
+      <control name="tabGeneral" value="Generelt" />
+      <control name="tabTextEditors" value="Tekst Editorer" />
+      <control name="LanguageGroup" value="Sprog" />
+      <control name="ExtensionExclusionGroup" value="Udeladte Fil Typer" />
+      <control name="tabPlugins" value="Udvidelser" />
+      <control name="chkDesktopShortcut" value="&amp;Skrivebords Genvej" />
+      <control name="chkStartMenuShortcut" value="Start &amp;Menu Genvej" />
+      <control name="ShortcutGroup" value="Genvej" />
+      <control name="PluginDetailsGroup" value="Udvidelsesdetaljer" />
+      <control name="lblPluginDetailName" value="Navn:" />
+      <control name="lblPluginDetailVersion" value="Version:" />
+      <control name="lblPluginDetailAuthor" value="Forfatter:" />
+   </screen>
+   
+   <screen name="frmPrint" value="Print">
+      <control name="cmdCancel" value="&amp;Annuler" />
+      <control name="lblSelect" value="Angiv typen af udkrift:" />
+      <control name="cmdPageSetup" value="SideOpsætning" />
+      <control name="cmdPrint" value="&amp;Print" />
+      <control name="cmdPreview" value="&amp;Preview" />
+   </screen>
+   
+   <generic>
+      <text name="Browse" value="Browse..." />
+      
+      <text name="SaveDialogTitle" value="Gem resultaterne som" />
+      <text name="SaveNoResults" value="Der er ingen resultater at gemme." />
+      <text name="SaveError" value="Resultater kunne ikke gemmes: {0}" />
+      <text name="SaveSaving" value="Gemmer resultater til fil {0}" />
+      <text name="SaveSaved" value="Resultater gemt" />
+      
+      <text name="PrintTypeSelected" value="Valgte Emner" />
+      <text name="PrintTypeCurrent" value="Nuværende Emne" />
+      <text name="PrintTypeFile" value="Fil Liste" />
+      <text name="PrintTypeAll" value="Alle Hits" />
+      <text name="PrintErrorPageSettings" value="Der opstod en fejl da sideopsætning blev forsøgt indlæst. Kontroller at du har forbindelse til en printer. Printeren skal være tændt og forbundet, før der kan udskrives." />
+      <text name="PrintErrorPreview" value="Der opstod en fejl under udarbejdelse af udskrifts preview. Kontroller at du har forbindelse til en printer. Printeren skal være tændt og forbundet, før der kan udskrives." />
+      <text name="PrintErrorPrint" value="Der opstod en fejl ved dannelsen af udskriften. Kontroller at du har forbindelse til en printer. Printeren skal være tændt og forbundet, før der kan udskrives." />
+      <text name="PrintErrorDocument" value="Der opstod en fejl ved dannelsen af det ønskede print. ({0})" />
+      <text name="PrintNoResults" value="Der er ingen resultater at printe." />
+      
+      <text name="OpenFolderDescription" value="Angiv en startmappe" />
+      
+      <text name="VerifyErrorContextLines" value="Antallet af kontekstlinier skal være mellem {0} og {1}." />
+      <text name="VerifyErrorFileType" value="Angiv et helt eller delvist filnavn at søge i." />
+      <text name="VerifyErrorNoStartPath" value="Du skal angive en søgesti før søgningen kan begynde." />
+      <text name="VerifyErrorInvalidStartPath" value="'{0}' er ikke en gyldig søgesti." />
+      <text name="VerifyErrorNoSearchText" value="Angiv den tekst der skal søges efter." />
+      <text name="VerifyErrorGeneric" value="Ude af stand til at anvende angivne parametre.  Verificer venligst at de er gyldige." />
+      
+      <text name="SearchGenericError" value="Der opstod en fejl under søgningen: {0}" />
+      <text name="SearchFileError" value="Der opstod en fejl under søgningen i fil: {0}." />
+      <text name="SearchCancelled" value="Søgning Annulleret" />
+      <text name="SearchFinished" value="Søgning Afsluttet" />
+      <text name="SearchStarted" value="Søgning begonnen" />
+      <text name="SearchSearching" value="Søger {0}" />
+      <text name="SearchExplorerItem" value="Søger med {0}..." />
+      
+      <text name="ResultsPreviewText" value="(21)  Eksempel på et resultat - linie og, søgematch, vises" />
+      <text name="ResultsPreviewTextMatch" value="søgematch" />
+      
+      <text name="ColorOtherText" value="&amp;Brugerindstillet..." />
+      <!-- todo: color names -->
+      
+      <text name="TextEditorsErrorNoCmdLineForFile" value="Der er ikke angivet kommandolinie parameter for denne filtype. &#xD;&#xA; Angiv venligst parametren under Indstillinger->Program Indstillinger." />
+      <text name="TextEditorsErrorNotDefined" value="Der er ikke angivet en teksteditor for den givne filtype og der er heller ikke angivet en standard editor. &#xD;&#xA; Angiv venligst en teksteditor under Indstillinger->Program Indstillinger" />
+      <text name="TextEditorsErrorGeneric" value="Problem ved ændringen af filen {0}.&#xD;&#xA;Følgende problem opstod: {1}" />
+      <text name="TextEditorsBrowseTitle" value="Angiv den eksekverbare teksteditor fil" />
+      <text name="TextEditorsAllTypesDefined" value="Standard teksteditoren er allerede angivet." />
+      <text name="TextEditorsColumnFileType" value="Fil Type" />
+      <text name="TextEditorsColumnLocation" value="Teksteditor" />
+      <text name="TextEditorsColumnCmdLine" value="Kommandolinie" />
+      <text name="TextEditorsErrorNoEditor" value="Please define a text editor." />
+      <text name="TextEditorsErrorFileTypeExists" value="The file type already exists.  Please try again." />
+      
+      <text name="ResultsColumnFile" value="Navn" />
+      <text name="ResultsColumnLocation" value="Lokaliseret I" />
+      <text name="ResultsColumnDate" value="Sidst Ændret" />
+      <text name="ResultsColumnCount" value="Antal" />
+      
+      <text name="PluginsColumnEnabled" value="I kraft" />
+      <text name="PluginsColumnName" value="Navn" />
+      <text name="PluginsColumnExtensions" value="Udvidelser" />
+   </generic>
+</language>

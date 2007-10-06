@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language displayName="English (U.S.)" culture="en-us" version="1.0">
+   <screen name="frmMain" value="FileSearch">
+      <control name="lblSearchHeading" value=" FileSearch Search" />
+      <control name="lblSearchText" value="Search Text" />
+      <control name="lblFileTypes" value="File Types" />
+      <control name="btnCancel" value="&amp;Cancel" />
+      <control name="btnSearch" value="&amp;Search" />
+      <control name="lblSearchPath" value="Search Path" />
+      <control name="lblContextLines" value="Context Lines" tooltip="Show lines above and below the word matched" />
+      <control name="chkLineNumbers" value="&amp;Line Numbers" tooltip="Include line numbers before each match" />
+      <control name="chkNegation" value="&amp;Negation" tooltip="Find the files without the Search Text in them" />
+      <control name="chkFileNamesOnly" value="Show File Names &amp;Only" tooltip="Show names but not contents of files that have matches (may be faster on large files)" />
+      <control name="chkRecurse" value="&amp;Recurse" tooltip="Search in subdirectories" />
+      <control name="chkWholeWordOnly" value="&amp;Whole Word" tooltip="Only match entire words (not parts of words)" />
+      <control name="chkCaseSensitive" value="&amp;Case Sensitive" tooltip="Match upper and lower case letters exactly" />
+      <control name="chkRegularExpressions" value="Regular &amp;Expressions" tooltip="Use &quot;regular expression&quot; matching" />
+      <control name="lnkSearchOptions" value="Search Options {0}" />
+      <control name="picBrowse" tooltip="Browse..." />
+      <menu index="0" value="&amp;File">
+         <menuitem index="0" value="Select Sea&amp;rch Path" />
+         <menuitem index="1" value="-" />
+         <menuitem index="2" value="&amp;Save Results..." />
+         <menuitem index="3" value="&amp;Print Results..." />
+         <menuitem index="4" value="-" />
+         <menuitem index="5" value="E&amp;xit" />
+      </menu>
+      <menu index="1" value="&amp;Edit">
+         <menuitem index="0" value="&amp;Select All Files" />
+         <menuitem index="1" value="&amp;Open Selected Files" />
+      </menu>
+      <menu index="2" value="&amp;Tools">
+         <menuitem index="0" value="&amp;Clear Most Recently Used Lists" />
+         <menuitem index="1" value="-" />
+         <menuitem index="2" value="&amp;Save Search Options" />
+         <menuitem index="3" value="&amp;Options..." />
+      </menu>
+      <menu index="3" value="&amp;Help">
+         <menuitem index="0" value="&amp;About..." />
+      </menu>
+   </screen>
+   
+   <screen name="frmAbout" value="About {0}">
+      <control name="lnkHomePage" value="{0} Home Page" />
+      <control name="cmdOK" value="&amp;OK" />
+   </screen>
+   
+   <screen name="frmAddEditTextEditor" value="Text Editors">
+      <control name="lblAllTypesMessage" value="A Text Editor can be used for all unknown types by using a * for the file type." />
+      <control name="lblCmdOptions" value="Command Line Optons:&#xD;&#xA;  %1 - File&#xD;&#xA;  %2 - Line Number&#xD;&#xA;  %3 - Column" />
+      <control name="lblCmdOptionsView" value="Preview: {0}" />
+      <control name="btnBrowse" tooltip="Browse..." />
+      <control name="lblCmdLineArgs" value="Command Line" />
+      <control name="lblTextEditorLocation" value="Text Editor Location" />
+      <control name="lblFileType" value="File Type" />
+      <control name="btnCancel" value="&amp;Cancel" />
+      <control name="btnOK" value="&amp;OK" />
+   </screen>
+   
+   <screen name="frmOptions" value="Options">
+      <control name="chkRightClickOption" value="&amp;Set right-click option on folders" />
+      <control name="lblStoredPaths" value="Number of most recently used paths to store" />
+      <control name="btnEdit" value="&amp;Edit..." />
+      <control name="btnRemove" value="&amp;Delete" />
+      <control name="btnAdd" value="&amp;Add..." />
+      <control name="lblResultPreview" value="Results Preview" />
+      <control name="lblResultsWindowBack" value="Back Color" />
+      <control name="lblResultsWindowFore" value="Fore Color" />
+      <control name="grpResultWindow" value="Results Window" />
+      <control name="BackColorLabel" value="Back Color" />
+      <control name="ForeColorLabel" value="Fore Color" />
+      <control name="grpResultMatch" value="Results Match" />
+      <control name="btnOK" value="&amp;OK" />
+      <control name="btnCancel" value="&amp;Cancel" />
+      <control name="tabResults" value="Results" />
+      <control name="tabGeneral" value="General" />
+      <control name="tabTextEditors" value="Text Editors" />
+      <control name="LanguageGroup" value="Language"/>
+      <control name="ExtensionExclusionGroup" value="Exclude File Extensions"/>
+      <control name="tabPlugins" value="Plugins"/>
+      <control name="chkDesktopShortcut" value="&amp;Desktop Shortcut"/>
+      <control name="chkStartMenuShortcut" value="Start &amp;Menu Shortcut"/>
+      <control name="ShortcutGroup" value="Shortcuts"/>
+      <control name="PluginDetailsGroup" value="Plugin Details"/>
+      <control name="lblPluginDetailName" value="Name:"/>
+      <control name="lblPluginDetailVersion" value="Version:"/>
+      <control name="lblPluginDetailAuthor" value="Author:"/>
+   </screen>
+   
+   <screen name="frmPrint" value="Print">
+      <control name="cmdCancel" value="&amp;Cancel" />
+      <control name="lblSelect" value="Please select the output type:" />
+      <control name="cmdPageSetup" value="Page &amp;Setup" />
+      <control name="cmdPrint" value="&amp;Print" />
+      <control name="cmdPreview" value="Pre&amp;view" />
+   </screen>
+   
+   <generic>
+      <text name="Browse" value="Browse..."/>
+      
+      <text name="SaveDialogTitle" value="Save results as" />
+      <text name="SaveNoResults" value="There are currently no results available to save."/>
+      <text name="SaveError" value="Unable to save results: {0}"/>
+      <text name="SaveSaving" value="Saving Results to file: {0}"/>
+      <text name="SaveSaved" value="Results saved"/>
+      
+      <text name="PrintTypeSelected" value="Selected Items"/>
+      <text name="PrintTypeCurrent" value="Current Hit"/>
+      <text name="PrintTypeFile" value="File List"/>
+      <text name="PrintTypeAll" value="All Hits"/>
+      <text name="PrintErrorPageSettings" value="An error occurred while trying to load the Page Settings. Make sure you currently have access to a printer. A printer must be connected and accessible for Printing to work."/>
+      <text name="PrintErrorPreview" value="An error occurred while trying to load the document for Print Preview. Make sure you currently have access to a printer. A printer must be connected and accessible for Printing to work."/>
+      <text name="PrintErrorPrint" value="An error occurred while trying to load the document for Printing. Make sure you currently have access to a printer. A printer must be connected and accessible for Printing to work."/>
+      <text name="PrintErrorDocument" value="An error occurred during creation of the document to print. ({0})"/>
+      <text name="PrintNoResults" value="There are currently no results available to print."/>
+      
+      <text name="OpenFolderDescription" value="Please select a starting folder."/>
+      
+      <text name="VerifyErrorContextLines" value="The number of context lines must be between {0} and {1}."/>
+      <text name="VerifyErrorFileType" value="You must supply the name of a file in which to search."/>
+      <text name="VerifyErrorNoStartPath" value="You must supply the path to begin the search."/>
+      <text name="VerifyErrorInvalidStartPath" value="'{0}' is not a valid folder."/>
+      <text name="VerifyErrorNoSearchText" value="You must supply text for which to search."/>
+      <text name="VerifyErrorGeneric" value="Unable to validate specified parameters.  Please verify they are valid."/>
+      
+      <text name="SearchGenericError" value="An error occurred searching: {0}"/>
+      <text name="SearchFileError" value="An error occurred searching file: {0}."/>
+      <text name="SearchCancelled" value="Search Cancelled"/>
+      <text name="SearchFinished" value="Search Finished"/>
+      <text name="SearchStarted" value="Search Started"/>
+      <text name="SearchSearching" value="Searching {0}"/>
+      <text name="SearchExplorerItem" value="Search using {0}..."/>
+      
+      <text name="ResultsPreviewText" value="(21)  Example results line and, match, displayed"/>
+      <text name="ResultsPreviewTextMatch" value="match"/>
+      
+      <text name="ColorOtherText" value="&amp;Custom..."/>
+      <!-- todo: color names -->
+      
+      <text name="TextEditorsErrorNoCmdLineForFile" value="No command line argument has been specified for the filename. &#xD;&#xA; Please specify the file argument under Tools->Options."/>
+      <text name="TextEditorsErrorNotDefined" value="No Text Editor was specified for the given file and no Text Editor is defined for all types. &#xD;&#xA; Please specify a Text Editor under Tools->Options"/>
+      <text name="TextEditorsErrorGeneric" value="Error editing file {0}.&#xD;&#xA;The following problem occurred: {1}"/>
+      <text name="TextEditorsBrowseTitle" value="Select the text editor executable"/>
+      <text name="TextEditorsAllTypesDefined" value="The all types Text Editor is already defined."/>
+      <text name="TextEditorsColumnFileType" value="File Type"/>
+      <text name="TextEditorsColumnLocation" value="Text Editor"/>
+      <text name="TextEditorsColumnCmdLine" value="Command Line"/>
+      <text name="TextEditorsErrorNoEditor" value="Please define a text editor."/>
+      <text name="TextEditorsErrorFileTypeExists" value="The file type already exists.  Please try again."/>
+      
+      <text name="ResultsColumnFile" value="Name"/>
+      <text name="ResultsColumnLocation" value="Located In"/>
+      <text name="ResultsColumnDate" value="Date Modified"/>
+      <text name="ResultsColumnCount" value="Count"/>
+      
+      <text name="PluginsColumnEnabled" value="Enabled"/>
+      <text name="PluginsColumnName" value="Name"/>
+      <text name="PluginsColumnExtensions" value="Extensions"/>
+   </generic>
+   
+</language>
