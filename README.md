@@ -5,6 +5,7 @@ The idea of NStudio is to support all the features of one perfect text editor.
 NStudio has 5 modules for editing text (Scintilla, Rich Text Editor, ICSharpCode editor, Standart windows editor and WYSIWYG HTML Editor), web browser, plugins and many tools.
 
 * http://www.softpedia.com/get/Office-tools/Text-editors/NStudio.shtml
+* http://www.download.bg/index.php?cls=program&mtd=default&id=431379
 * http://fileforum.betanews.com/detail/NStudio/1179220914/1
 * http://softvisia.com/download.php?view.1033
 
