@@ -8,7 +8,6 @@ NStudio has 5 modules for editing text (Scintilla, Rich Text Editor, ICSharpCode
 * http://fileforum.betanews.com/detail/NStudio/1179220914/1
 * http://softvisia.com/download.php?view.1033
 
-
 ## Features
 Here are some key features of "NStudio":
 - 5 editing components (Scintilla editor, ICSharpCode editor, HTML WYSIWYG editor, Rich text editor and Standart Windows editor)
@@ -23,6 +22,10 @@ Here are some key features of "NStudio":
 - Source code printing
 - Brace and Indent guideline Highlighting
 - Clipboard ring, Math tools, System Information tool, Directory Watcher and Console
+
+## Screenshot
+
+![NStudio Screenshot](http://www.download.bg/upl/progs/sc2.6410.PNG)
 
 ## Changelog
 ####0.1-beta3 (0030) (16-09-2007)
